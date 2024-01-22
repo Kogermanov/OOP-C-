@@ -12,8 +12,8 @@ else()
     add_compile_options(-Wall -Wextra -pedantic -Werror)
 endif()
 
-add_library(corelib OBJECT src/executables/countWordsClass.cpp)
-add_executable(${exe_name} src/executables/main.cpp)
+add_library(corelib OBJECT countWordsClass.cpp)
+add_executable(${exe_name} main.cpp)
 target_link_libraries(${exe_name} corelib)
 
 if(POLICY CMP0135)
@@ -34,6 +34,6 @@ FetchContent_MakeAvailable(googletest)
 
 # описываем исполняемый файл программы для запуска тестов: это cpp-файлы тестов + основная библиотека + библиотека gtest_main
 # наш собственный main.cpp здесь не нужен, т.к. функция main реализована в gtest_main
-add_executable(${test_name} src/test/test.cpp)
+add_executable(${test_name} test.cpp)
 target_link_libraries(${test_name} gtest_main)
 target_link_libraries(${test_name} corelib)
