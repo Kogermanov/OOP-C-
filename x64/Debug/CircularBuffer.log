@@ -1,0 +1,3 @@
+﻿  buffer.cpp
+C:\Users\vipko\source\repos\CircularBuffer\buffer.cpp(55): warning C4715: CircularBuffer::At: значение возвращается не при всех путях выполнения
+  CircularBuffer.vcxproj -> C:\Users\vipko\source\repos\CircularBuffer\x64\Debug\CircularBuffer.exe
