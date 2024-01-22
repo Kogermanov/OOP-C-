@@ -1,0 +1,9 @@
+﻿  Board.cpp
+C:\Users\vipko\source\repos\nsu_OOP_lab2\Board.cpp(40,22): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\vipko\source\repos\nsu_OOP_lab2\Board.cpp(52,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  GameOfLife.cpp
+  main.cpp
+  Создание кода...
+  nsu_OOP_lab2.vcxproj -> C:\Users\vipko\source\repos\nsu_OOP_lab2\x64\Debug\nsu_OOP_lab2.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
