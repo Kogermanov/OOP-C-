@@ -36,5 +36,3 @@ TEST(task1, countWords) {
     fileIn.close();
     fileOut.close();
 }
-
-//made with CHATGPT @copyright2023
